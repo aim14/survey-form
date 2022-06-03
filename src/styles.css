@@ -1,0 +1,67 @@
+body {
+  background-image: url(https://img.wallpapic.com/i2094-721-135/medium/blue-textures-black-cobalt-wallpaper.jpg);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: white;
+  font-family: Tahoma;
+  font-size: 16px;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: rgb(27, 27, 50, 0.85);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  padding: 20px 0 0 0;
+}
+
+form {
+  width: 60vh;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+fieldset {
+  border: none;
+  padding: 5px;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input[type="submit"] {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  background-color: limegreen;
+  color: white;
+}
